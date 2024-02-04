@@ -7,7 +7,7 @@
 body {
     background-color: #5AD05E;
 }
-
+/* Primeira Tela */
 .title {
     font-family: Anton;
     color:#F7F2E5;
@@ -62,6 +62,7 @@ body {
 
 .button:hover {
     background-color: #EDBD2E;
+    transition-duration: 0.5s;
     cursor: pointer;
 }
 
@@ -80,7 +81,7 @@ body {
     justify-content: center;
     margin: 10px;
 }
-
+/* Segunda Tela */
 .title-two {
     font-family: Anton;
     color:#F7F2E5;
@@ -165,5 +166,9 @@ body {
 }
 
 .container-questions {
+    display: none;
+}
+
+.container-question__second {
     /* display: none; */
 }
