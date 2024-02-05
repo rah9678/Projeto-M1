@@ -162,13 +162,17 @@ body {
 }
 
 .container-quiz {
-    display: none;
+    /* display: none; */
 }
 
 .container-questions {
-    display: none;
+    /* display: none; */
 }
 
 .container-question__second {
+    /* display: none; */
+}
+
+.end-screen {
     /* display: none; */
 }
