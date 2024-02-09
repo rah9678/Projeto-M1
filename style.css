@@ -169,13 +169,18 @@ body {
     display: none;
 }
 
-.container-question__second {
+.container-questions__second {
     display: none;
 }
 
-.container-question__third{
+.container-questions__third {
     display: none;
 }
+
+.container-questions__fourth {
+    display: none;
+}
+
 .end-screen {
     display: none;
 }
