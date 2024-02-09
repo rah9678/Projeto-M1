@@ -173,6 +173,9 @@ body {
     display: none;
 }
 
+.container-question__third{
+    display: none;
+}
 .end-screen {
     display: none;
 }
