@@ -123,6 +123,25 @@
             </div>
         </div>
     </section>
-    <script src="script.js"></script>
+    <div class="popup-background" id="popup-background">
+        <div class="popup" id="popup">
+            <p class="popup-text" id="popup-text">Parabéns! Você completou o quiz.</p>
+            <p class="popup-text" id="final-score">Pontuação: </p>
+            <button class="popup-btn" id="try-again-btn">Tentar Novamente</button>
+        </div>
+    </div>
+    <section class="end-screen" id="end-screen">
+        <h1 class="title">QUIZ TIME</h1>
+        <div class="quiz">
+            <div class="window">
+                <span class="bi bi-check-circle-fill" id="icon"></span>
+                <div class="line"></div>
+                <p class="subtitle" id="final-score"></p>
+            </div>
+            <button class="button" onclick="location.reload()">Tentar novamente</button>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
