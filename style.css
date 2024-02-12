@@ -161,6 +161,49 @@ body {
     margin: 15px;
 }
 
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: #F7F2E5;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-text {
+    font-family: JetBrains Mono;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-btn {
+    background-color: #F7F2E5;
+    padding: 5px 15px;
+    border: #34342d solid 1px;
+    border-radius: 2px;
+    box-shadow: 2px 2px;
+    color: #34342d;
+    font-family: JetBrains Mono;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+
 .container-quiz {
     /* display: none; */
 }
