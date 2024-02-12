@@ -162,7 +162,7 @@ body {
 }
 
 .container-quiz {
-    display: none;
+    /* display: none; */
 }
 
 .container-questions {
@@ -178,6 +178,10 @@ body {
 }
 
 .container-questions__fourth {
+    display: none;
+}
+
+.container-questions__fifth {
     display: none;
 }
 
