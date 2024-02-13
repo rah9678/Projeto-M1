@@ -231,3 +231,7 @@ body {
 .end-screen {
     display: none;
 }
+
+.container-questions__seventh {
+    display: none;
+}
