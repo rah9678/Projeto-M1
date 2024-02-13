@@ -27,6 +27,11 @@ const questions = [
         answers:["65 anos", "400 anos", "100 anos", "46 anos"],
         correctAnswerIndex:3
     }
+    {
+        question: "Quantos estados tem o Nordeste?",
+        answers: ["14", "8", "21", "9"],
+        correctAnswerIndex:3
+    }
 ];
 
 let currentQuestionIndex = 0;
