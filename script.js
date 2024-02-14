@@ -31,7 +31,17 @@ const questions = [
         question: "Quantos estados tem o Nordeste?",
         answers: ["14", "8", "21", "9"],
         correctAnswerIndex:3
-    }
+    },
+    {
+        question:"Qual o 'Estado' do pão de queijo?",
+        answers: ["São Paulo", "Minas Gerais", "Sergipe", "Paraná"],
+        correctAnswerIndex:1
+    },
+    {
+        question:"Onde está localizado o Cristo Redentor?",
+        answers: ["SP", "MG", "RJ", "BH"],
+        correctAnswerIndex:2
+    },
 ];
 
 let currentQuestionIndex = 0;
