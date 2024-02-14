@@ -58,13 +58,32 @@ function renderQuestion() {
     currentQuestion.answers.forEach((answer, index) => {
         options[index].textContent = answer;
     });
+    
+    const questionCounter = document.getElementById('question-counter');
+    questionCounter.textContent = `Pergunta ${currentQuestionIndex + 1} de ${questions.length}`;
+
 }
 
 function checkAnswer(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     if (selectedIndex === currentQuestion.correctAnswerIndex) {
         score++; 
+    } else {
+          const tryAgain = confirm("Resposta incorreta! Deseja tentar novamente?");
+    if (tryAgain) {
+           return;
+
+    } else {
+        alert("Você desistiu! Fim do jogo.");
+        document.querySelector('.end-screen').style.display = 'block';
+        document.querySelector('.container-questions').style.display = 'none';
+
+        
+        return;
+      
     }
+}
+
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         renderQuestion();
