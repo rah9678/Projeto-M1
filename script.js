@@ -1,22 +1,16 @@
 
-function login(){
-    let name = prompt("Qual o seu nome?");
-    if(name && typeof name === "string") {
-       alert(`Seja Bem-vinde, ${name}`);
-    }else {
-        alert(`Seja Bem-vinde!`);
-    }
-    
-}
-
-login();
-
 function username() {
+    let name = prompt("Qual o seu nome?");
+     if (name && typeof name === "string" && name.length <= 10) {
+        alert(`Seja bem-vindo, ${name}!`);
+     } else {
+        alert(`Seja bem-vindo!`)
+     }
     const user = document.getElementById("popup-text");
-    if (name && typeof name === "string") {
+    if (alert && name) {
         user.textContent = `Parabéns! ${name} completou o quiz`;
     } else {
-        user.textContent = 'Parabéns! Você completou o quiz.';
+        user.textContent = "Parabéns! você completou o quiz.";
     }
 }
 username();
