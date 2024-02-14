@@ -1,5 +1,5 @@
-const name = prompt("Qual o seu nome?");
-const gettings = alert(`Seja Bem-vinde, ${name}`);
+// const name = prompt("Qual o seu nome?");
+// const gettings = alert(`Seja Bem-vinde, ${name}`);
 
 const questions = [
     {
@@ -104,9 +104,9 @@ document.getElementById('try-again-btn').onclick = function() {
     currentQuestionIndex = 0;
     score = 0;
     renderQuestion();
-    document.querySelector('.container-quiz').style.display = 'block'; // Exibir a tela inicial novamente
-    document.querySelector('.container-questions').style.display = 'none'; // Ocultar a tela de perguntas
-    document.getElementById('popup-background').style.display = 'none'; // Ocultar o pop-up
+    document.querySelector('.container-quiz').style.display = 'block';
+    document.querySelector('.container-questions').style.display = 'none';
+    document.getElementById('popup-background').style.display = 'none';
 };
 
 
@@ -114,7 +114,7 @@ document.querySelector('.button').onclick = function() {
     const quizStartScreen = document.querySelector('.container-quiz');
     quizStartScreen.style.display = 'none';
     renderQuestion(); 
-    document.querySelector('.container-questions').style.display = 'block'; // Exibe a tela de perguntas
+    document.querySelector('.container-questions').style.display = 'block';
 };
 
 const optionButtons = document.querySelectorAll('.bnt');

@@ -161,6 +161,20 @@ body {
     margin: 15px;
 }
 
+#icon-three {
+    font-size: 0.8rem;
+    color: #34342d;
+    margin-left: 2px;
+}
+
+#question-counter {
+    text-align: center;
+    font-family: JetBrains Mono;
+    color: #34342d;
+    font-size: 8px;
+    margin-top: -5px;
+}
+
 .popup-background {
     position: fixed;
     top: 0;
@@ -203,6 +217,11 @@ body {
     cursor: pointer;
 }
 
+.popup-btn:hover {
+    background-color: #EDBD2E;
+    transition-duration: 0.5s;
+}
+
 
 .container-quiz {
     /* display: none; */
@@ -228,18 +247,18 @@ body {
     display: none;
 }
 
-.end-screen {
-    display: none;
-}
-
 .container-questions__seventh {
     display: none;
 }
 
 .container-questions__eighth{
-display:none;
+    display:none;
 }
 
-.container-questions__nineth{
+.container-questions__nineth {
     display:none;
-    }
+}
+
+.end-screen {
+    display: none;
+}
