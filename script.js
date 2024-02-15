@@ -1,4 +1,3 @@
-
 function username() {
     let name = prompt("Qual o seu nome?");
      if (name && typeof name === "string" && name.length <= 10) {
@@ -8,10 +7,9 @@ function username() {
      }
     const user = document.getElementById("popup-text");
     if (alert && name) {
-        user.textContent = `Parabéns! ${name} completou o quiz`;
-    } else {
-        user.textContent = "Parabéns! você completou o quiz.";
-    }
+        user.textContent = `Parabéns! ${name}, você completou o quiz.`;
+    } else {  user.textContent = "Parabéns! você completou o quiz.";
+}
 }
 username();
 
@@ -73,8 +71,7 @@ function renderQuestion() {
     currentQuestion.answers.forEach((answer, index) => {
         options[index].textContent = answer;
     });
-    
-    const questionCounter = document.getElementById('question-counter');
+           const questionCounter = document.getElementById('question-counter');
     questionCounter.textContent = `Pergunta ${currentQuestionIndex + 1} de ${questions.length}`;
 
 }
@@ -84,20 +81,12 @@ function checkAnswer(selectedIndex) {
     if (selectedIndex === currentQuestion.correctAnswerIndex) {
         score++; 
     } else {
-          const tryAgain = confirm("Resposta incorreta! Deseja tentar novamente?");
-    if (tryAgain) {
-           return;
-
-    } else {
-        alert("Você desistiu! Fim do jogo.");
-        document.querySelector('.end-screen').style.display = 'block';
-        document.querySelector('.container-questions').style.display = 'none';
-
-        
-        return;
-      
-    }
-}
+            alert("Você errou! Fim do jogo.");
+            document.querySelector('.end-screen').style.display = 'block';
+            document.querySelector('.container-questions').style.display = 'none';
+            return;
+        }
+    
 
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
@@ -119,9 +108,9 @@ document.getElementById('try-again-btn').onclick = function() {
     currentQuestionIndex = 0;
     score = 0;
     renderQuestion();
-    document.querySelector('.container-quiz').style.display = 'block';
+    document.querySelector('.container-quiz').style.display = 'block'; 
     document.querySelector('.container-questions').style.display = 'none';
-    document.getElementById('popup-background').style.display = 'none';
+    document.getElementById('popup-background').style.display = 'none'; 
 };
 
 
@@ -129,7 +118,7 @@ document.querySelector('.button').onclick = function() {
     const quizStartScreen = document.querySelector('.container-quiz');
     quizStartScreen.style.display = 'none';
     renderQuestion(); 
-    document.querySelector('.container-questions').style.display = 'block';
+    document.querySelector('.container-questions').style.display = 'block'; 
 };
 
 const optionButtons = document.querySelectorAll('.bnt');
