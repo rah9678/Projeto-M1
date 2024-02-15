@@ -11,7 +11,7 @@ function username() {
     } else {  user.textContent = "Parabéns! você completou o quiz.";
 }
 }
-// username();
+username();
 
 
 const questions = [
@@ -61,7 +61,7 @@ const questions = [
         correctAnswerIndex:2
     },
     {
-        question: "Em que ano foi fundado o estado de Sergipe?"
+        question: "Em que ano foi fundado o estado de Sergipe?",
         answers: ["1835", "1830", "1825", "1820"],
         correctAnswerIndex:3
     }

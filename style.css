@@ -7,7 +7,7 @@
 body {
     background-color: #5AD05E;
 }
-/* Primeira Tela */
+
 .title {
     font-family: Anton;
     color:#F7F2E5;
@@ -81,7 +81,7 @@ body {
     justify-content: center;
     margin: 10px;
 }
-/* Segunda Tela */
+
 .title-two {
     font-family: Anton;
     color:#F7F2E5;
@@ -168,7 +168,7 @@ body {
     border: #34342d solid 0.7px;
     border-radius: 2px;
     box-shadow: #34342d 4px 4px 0px;
-    padding: -2px;
+    padding-top: -5px;
 }
 
 .subtitle-two {
