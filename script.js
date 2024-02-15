@@ -11,7 +11,7 @@ function username() {
     } else {  user.textContent = "Parabéns! você completou o quiz.";
 }
 }
-username();
+// username();
 
 
 const questions = [

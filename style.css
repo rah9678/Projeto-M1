@@ -22,7 +22,7 @@ body {
 .window {
     background-color: #F7F2E5;
     width: 150px;
-    height: 60px;
+    height: 75px;
     border: #34342d solid 0.7px;
     border-radius: 2px;
     box-shadow: #34342d 4px 4px 0px;
@@ -43,9 +43,9 @@ body {
 .subtitle {
     color: #34342d;
     font-family: JetBrains Mono;
-    font-size: 15px;
+    font-size: 10.5px;
     font-weight: 600;
-    text-align: center;
+    text-align:center;
     padding: 5px;
 }
 
@@ -161,8 +161,26 @@ body {
     margin: 15px;
 }
 
+.window-three {
+    background-color: #F7F2E5;
+    width: 150px;
+    height: 50px;
+    border: #34342d solid 0.7px;
+    border-radius: 2px;
+    box-shadow: #34342d 4px 4px 0px;
+    padding: -2px;
+}
+
+.subtitle-two {
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 15px;
+    font-weight: 600;
+    color: #34342d;
+}
+
 #icon-three {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #34342d;
     margin-left: 2px;
 }
