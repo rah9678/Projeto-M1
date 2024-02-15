@@ -8,7 +8,7 @@ function username() {
      }
     const user = document.getElementById("popup-text");
     if (alert && name) {
-        user.textContent = `Parabéns! ${name} completou o quiz`;
+        user.textContent = `Parabéns! ${name} você completou o quiz`;
     } else {
         user.textContent = "Parabéns! você completou o quiz.";
     }
