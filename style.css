@@ -277,6 +277,14 @@ body {
     display:none;
 }
 
+.container-questions__tenth {
+    display: none;
+}
+
+.container-questions__eleventh {
+    display: none;
+}
+
 .end-screen {
     display: none;
 }

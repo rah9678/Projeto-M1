@@ -55,6 +55,16 @@ const questions = [
         answers: ["SP", "MG", "RJ", "BH"],
         correctAnswerIndex:2
     },
+    {
+        question: "Quem nasce no estado de Goiás é:",
+        answers: ["Goienio", "Goleiro", "Goiano", "Goiaiano"],
+        correctAnswerIndex:2
+    },
+    {
+        question: "Em que ano foi fundado o estado de Sergipe?"
+        answers: ["1835", "1830", "1825", "1820"],
+        correctAnswerIndex:3
+    }
 ];
 
 let currentQuestionIndex = 0;
