@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1024px)  {
+    
+    .title{
+        font-size: 100px;
+        text-shadow: #34342d 2px 6px 0px;
+        font-weight: 200;
+    }
+    .window{
+      width:548px;
+      height: 180px;
+      padding-top:10px ;
+      border:5px;
+      border-radius: 4px;
+      box-shadow: #34342d 6px 6px 0px;
+      margin-top: 50px;
+    }
+    .line{
+        width: 550px;
+        height: 2px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+
+     #icon{
+        font-size: 2.3rem;
+        margin-left: 4px;
+     }
+
+     .button{
+        width: 150px;
+        height: 50px;
+        border: 5px;
+        border-radius: 4px;
+        box-shadow: #34342d 4px 4px 0px;
+        margin-top: 50px;
+     }
+
+
+     .text-button{
+        font-size: 30px;
+     }
+
+
+}
