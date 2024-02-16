@@ -42,4 +42,24 @@
      }
 
 
+
+     .window-two{
+        width:500px;
+        height: 150px;
+        padding-top:15px ;
+        border:5px;
+        border-radius: 4px;
+        box-shadow: #34342d 6px 6px 0px;
+        margin-top: 50px;
+     }
+     .line-two{
+        width: 500px;
+        height: 2px;
+    }
+    .Ask{
+        font-size: 30px;
+    }
+
 }
+
+
