@@ -11,7 +11,7 @@ function username() {
     } else {  user.textContent = "Parabéns! você completou o quiz.";
 }
 }
-// username();
+username();
 
 
 const questions = [
@@ -46,7 +46,7 @@ const questions = [
         correctAnswerIndex:3
     },
     {
-        question:"Qual o 'Estado' do pão de queijo?",
+        question:"Qual o estado do pão de queijo?",
         answers: ["São Paulo", "Minas Gerais", "Sergipe", "Paraná"],
         correctAnswerIndex:1
     },

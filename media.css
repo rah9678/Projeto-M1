@@ -3,7 +3,8 @@
     .title{
         font-size: 100px;
         text-shadow: #34342d 2px 6px 0px;
-        font-weight: 200;
+        font-weight: 400;
+
     }
     .window{
       width:548px;
@@ -12,7 +13,7 @@
       border:5px;
       border-radius: 4px;
       box-shadow: #34342d 6px 6px 0px;
-      margin-top: 50px;
+      margin-top: 30px;
     }
     .line{
         width: 550px;
@@ -45,12 +46,13 @@
 
      .window-two{
         width:500px;
-        height: 150px;
-        padding-top:15px ;
+        height: 170px;
+        padding-top:15px;
         border:5px;
         border-radius: 4px;
         box-shadow: #34342d 6px 6px 0px;
-        margin-top: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
      }
      .line-two{
         width: 500px;
@@ -59,6 +61,52 @@
     .Ask{
         font-size: 30px;
     }
+
+    #icon-two{
+        font-size: 2.3rem;
+        margin-left: 4px;
+    }
+    .title-two{
+        font-size: 100px;
+        font-weight: 200;
+        text-shadow: #34342d 2px 6px 0px;
+    }
+
+    .bnt{
+        width: 245px;
+        height: 35px;
+        border-radius: 4px;
+        font-size:15px ;
+        box-shadow: #34342d 4px 4px 0px;
+        margin: 10px;
+    }
+    #question-counter  {
+        font-size: 15px;
+    }
+
+    .window-three{
+        width:550px;
+        height: 120px;
+        padding-top:-15px;
+        border:5px;
+        border-radius: 4px;
+        box-shadow: #34342d 6px 6px 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .subtitle-two{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+#icon-three{
+    font-size: 2rem;
+
+
+}
 
 }
 
